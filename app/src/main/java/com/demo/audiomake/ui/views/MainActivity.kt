@@ -1,17 +1,12 @@
-package com.demo.audiomake
+package com.demo.audiomake.ui.views
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import okhttp3.*
-import java.io.IOException
+import android.os.Bundle
+import com.demo.audiomake.R
 
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
     }
-
 }
